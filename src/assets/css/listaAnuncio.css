@@ -1,0 +1,32 @@
+.lista-anuncio-imagem{
+    height: 60px;
+    border-radius: 25px;
+}
+.lista-anuncio-imagem-nome{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 258px;
+}
+.icones-lista-produto{
+    display: flex;
+}
+.icones-lista-produto h3{
+    font-size: 20px;
+    text-align: center;
+}
+.descricao-anuncio-lista{
+    font-size: 20px;
+    width: 450px;
+    margin-right: 0 !important;
+}
+.lista-anuncio-icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.batata{
+    background-color: aqua;
+    display: flex;
+    align-content: center;
+}

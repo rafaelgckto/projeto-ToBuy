@@ -1,0 +1,67 @@
+.accordionWrapper {
+    cursor: pointer;
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 2% 10%;
+}
+
+.accordionItem {
+    float: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.accordionItemHeading {
+    cursor: pointer;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    background: #8a8a8a;
+    color: #fff;
+    width: 100%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+
+.close .accordionItemContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    float: left;
+    display: block;
+}
+
+.open .accordionItemContent {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display: block;
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -o-transition: -o-transform 0.4s ease;
+    -ms-transition: -ms-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.duvida-h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}

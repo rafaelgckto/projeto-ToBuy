@@ -1,0 +1,104 @@
+
+
+/* Uplod imagem - Inicio */
+.cadanun-uplimagem{
+  margin-left: 1.5rem;
+
+}
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-left: 1.5rem;
+}
+
+input,
+label {
+    margin: .4rem 0;
+   }
+
+/* Up imagem fim */
+
+/* Caixa Descrição - Inico */
+
+.form-control {
+    display: block;
+    width: 50vw;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* Caixa Descrição - Fim  */
+
+
+
+
+.md-form.md-outline.form-lg .form-control.form-control-lg{
+    width: 50vw;
+    margin-left: 1.5rem;
+}
+
+.flex-center {
+ margin-left: 15rem;
+}
+.custom-select{
+    width: 50vw;
+    height: 3em;
+    margin-left: 1.5rem;
+}
+
+.md-form.md-outline.form-lg label {
+    font-size: 1.25rem;
+    transform: translateY(10px);
+    margin-left: 1.5rem;
+}
+
+
+.cadprod-titulo{
+   font-size: 2.7rem;
+   display: flex;
+   /* justify-content: center;
+   align-items: center; */
+   font-weight:bold;
+   margin-left: 1.5rem;
+   margin-top: 2rem;
+}
+/* Botão cadastro produto */
+
+.main-produto .interest {
+    border-radius: 4px;
+    font-weight: bolder;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.save-product .interest {
+ height: 50px;
+ max-width: 350px;
+ font-size: 1.3em;
+ border-radius: 4px;
+ padding: 0px 20px;
+ width: 60%;
+ height: 50px;
+ background-color: #FFD34D;
+ margin-left: 1.5rem;
+ margin-top: 1.5rem;
+}
+
+
+/* Data */
+
+.button, input, optgroup, select, textarea {
+    margin-left: 1.5rem;
+    font-size: inherit;
+    line-height: inherit;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.anuncio-div-central{
+    display: flex;
+    /* align-items: center; */
+}
+.my-5{
+margin-top: 10px !important;
+margin-bottom: 1rem !important;
+}
+.anuncio-row-caixas{
+    margin: 0;
+
+}
+.mb-lg-0, .my-lg-0{
+    margin-bottom: 1.5rem !important;
+}
+.dark-grey-text{
+    color: #9e9e9e !important;
+    font-size: 1em;
+    font-weight: 500;
+}
+.grey-text{
+    color:#000000 !important;
+}
+.blue-text-valor{
+    color: #000000;
+    font-weight: 350 !important;
+}
+.card-img-top {
+    width: 95%;
+}
+.view {
+    margin-left: 10px;
+}
+.anuncio-filtro-centro{
+    margin-bottom: 30px;
+}

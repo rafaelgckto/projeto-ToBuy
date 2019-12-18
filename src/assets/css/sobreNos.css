@@ -1,0 +1,18 @@
+.sobre-nos-h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.sobre-nos-h2 {
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 15px;
+    text-align: justify;
+    width: 50%;
+}
+
+.sobre-nos-secao {
+    display: flex;
+}

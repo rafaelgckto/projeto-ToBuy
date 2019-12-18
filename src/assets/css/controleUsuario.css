@@ -1,0 +1,37 @@
+.pagina-controle-usuario {
+    display: flex;
+}
+.lista-usuario-aprovado {
+    width: 100%;
+}
+.header-controle-usuario {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    list-style: none;
+    background-color: #a3a0a0;
+    height:60px;
+    padding: 10px 0;
+}
+.controle-usuario-cadastrado {
+    width: 100%;
+}
+.botao-trocar-tabela{
+    height: 30px;
+    width: 210px;
+    align-self: center;
+    border-radius: 20px;
+}
+.react-tabs__tab--selected{
+    border-radius: 25px !important;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.conteudo-lista-usuario-ativo{
+    display: contents;
+}
+.lista-usuario-botao-ativar{
+    margin-left: 16px !important;
+    margin-top: 10px !important;
+}

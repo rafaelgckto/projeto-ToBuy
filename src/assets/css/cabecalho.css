@@ -1,0 +1,34 @@
+/* #region - cabecalho.css */
+
+.header-home {
+    height: 10vh;
+    padding: 0 3.75em;
+}
+
+.header-home .tw-logo {
+    height: 100%;
+    margin-left: 0.625em;
+}
+
+.header-home .tw-logo .img-logo {
+    width: 13.5em;
+}
+
+.nav-header .nav-header-a {
+    margin: 0 1em;
+}
+
+.btn-home-cabecalho {
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+#btn-cadastro-cabecalho {
+    background-color: var(--green);
+    padding: 0.5em 1.57em;
+    border-radius: 1.25em;
+}
+
+/* #endregion - cabecalho.css */

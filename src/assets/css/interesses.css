@@ -1,0 +1,50 @@
+.pagina-interesse{
+    display: flex;
+}
+.tabela-interesse-usuario{
+    display: contents;
+}
+.titulo-interesse-h2 h2{
+    text-align-last: center;
+    font-weight: 700;
+    margin: 15px auto;
+}
+.pagina-interesse-conteudo{
+    display: block;
+    width: 100%;
+
+}
+.interesse-imagem-perfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.interesse-nome-usuario{
+    font-size: 17px;
+    width: 200px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.interesse-email-usuario{
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.table td{
+    border-top:none;
+}
+.icones-lista-interesse-box h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+.icones-interesse-size{
+    height: 40px;
+}
+.interesse-nome-e-email{
+    display: flex;
+    justify-content: flex-start;
+}
+tr:nth-child(even) {
+    background: #D4D4D4;
+}

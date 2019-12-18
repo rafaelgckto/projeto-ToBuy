@@ -1,0 +1,141 @@
+/* #region cadastro-usuario.css */
+
+.register-user-main {
+    height: calc(100vh - 158px);
+}
+
+.register-card-box {
+    width: 30vw;
+    height: 60vh;
+    background: #fff;
+    box-shadow: 0em 0em 1.5em rgb(119, 118, 118);
+    border-radius: 15px;
+}
+
+.register-div-box {
+    height: 60vh;
+}
+
+.register-h2 {
+    font-size: 4em;
+}
+
+.register-p {
+    font-size: 1.3em;
+    margin-bottom: .7em;
+}
+
+.register-img-logo {
+    width: 3.5em;
+}
+
+.register-input {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 5px 5px;
+    margin-top: 7px;
+    width: 12vw;
+}
+
+.register-color {
+    background-color: var(--roxo);
+}
+
+.register-btn {
+    font-size: 1em;
+    border-radius: 1em;
+    color: white;
+    margin-top: 1.5em;
+    padding: 0.5em 4em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.register-p-footer {
+    font-size: 1.1em;
+}
+
+.register-link-login {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #A3A0A0;
+    font-size: .9em;
+}
+
+@media screen and (max-width: 768px) {
+    .register-card-box {
+        width: 65vw;
+    }
+    
+    .register-h2 {
+        font-size: 3.5em;
+    }
+    
+    .register-p {
+        font-size: 1.2em;
+    }
+    
+    .register-img-logo {
+        width: 4em;
+    }
+    
+    .register-input {
+        width: 30vw;
+    }
+    
+    .register-btn {
+        margin-top: 2em;
+        padding: .5em 2em;
+        margin-bottom: 2em;
+    }
+    
+    .register-p-footer {
+        font-size: 1.2em;
+    }
+    
+    .register-link-login {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .register-user-main {
+        height: calc(100vh - 129px);
+    }
+    
+    .register-card-box {
+        width: 80vw;
+        height: 60vh;
+    }
+    
+    .register-h2 {
+        font-size: 2.5em;
+    }
+    
+    .register-p {
+        font-size: 1em;
+        margin-bottom: .5em;
+    }
+    
+    .register-input {
+        width: 55vw;
+    }
+    
+    .register-btn {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: .5em 2em;
+    }
+    
+    .register-p-footer {
+        font-size: 1.1em;
+    }
+    
+    .register-link-login {
+        font-size: .9em;
+    }
+}
+
+/* cadastro-usuario.css */
