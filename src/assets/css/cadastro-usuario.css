@@ -1,23 +1,24 @@
 /* #region cadastro-usuario.css */
 
 .register-user-main {
-    height: calc(100vh - 158px);
+    height: 489px !important;
 }
 
 .register-card-box {
     width: 30vw;
-    height: 60vh;
+    height: 72vh;
     background: #fff;
     box-shadow: 0em 0em 1.5em rgb(119, 118, 118);
     border-radius: 15px;
 }
 
 .register-div-box {
-    height: 60vh;
+    height: 72vh;
 }
 
 .register-h2 {
-    font-size: 4em;
+    font-size: 3.5em;
+    margin-bottom: 0 !important;
 }
 
 .register-p {
@@ -34,7 +35,7 @@
     border: 1px solid rgba(0, 0, 0, 0.336);
     padding: 5px 5px;
     margin-top: 7px;
-    width: 12vw;
+    width: 20vw;
 }
 
 .register-color {
@@ -66,7 +67,7 @@
 
 @media screen and (max-width: 768px) {
     .register-card-box {
-        width: 65vw;
+        width: 55vw;
     }
     
     .register-h2 {
@@ -107,7 +108,7 @@
     
     .register-card-box {
         width: 80vw;
-        height: 60vh;
+        height: 80vh;
     }
     
     .register-h2 {
