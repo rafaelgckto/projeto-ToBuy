@@ -21,6 +21,8 @@ import ListaAnuncio from './pages/ListaAnuncio';
 import Produto from './pages/Produto';
 import Duvidas from './pages/Duvidas';
 import SobreNos from './pages/SobreNos';
+import CadastroAnuncio from './pages/CadastroAnuncio';
+import EditarAnuncio from './pages/EditarAnuncio';
 
 
 // Import MDB
@@ -61,13 +63,15 @@ const Rotas = (
                 <Route path="/login" component={Login} />
                 <Route path="/cadastrousuario" component={CadastroUsuario} />
                 <Route path="/perfil" component={Perfil} />
-                <Route path='/controleusuario' component={ControleUsuario}/>
-                <Route path='/interesses' component={Interesse}/>
-                <Route path='/anuncio' component={Anuncio}/>
-                <Route path='/listaanuncio' component={ListaAnuncio}/>
-                <Route path='/produto' component={Produto}/>
-                <Route path='/duvidas' component={Duvidas}/>
-                <Route path='/sobrenos' component={SobreNos}/>
+                <Route path='/controleusuario' component={ControleUsuario} />
+                <Route path='/interesses' component={Interesse} />
+                <Route path='/anuncio' component={Anuncio} />
+                <Route path='/listaanuncio' component={ListaAnuncio} />
+                <Route path='/produto' component={Produto} />
+                <Route path='/duvidas' component={Duvidas} />
+                <Route path='/sobrenos' component={SobreNos} />
+                <Route path="/cadastro-anuncio" component={CadastroAnuncio} />
+                <Route path="/editar-anuncio" component={EditarAnuncio} />
                 <Route component={NotFound} />
             </Switch>
         </div>

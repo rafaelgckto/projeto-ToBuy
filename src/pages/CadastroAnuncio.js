@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { MDBInput } from 'mdbreact';
 import '../assets/css/cadastroanuncio.css';
@@ -75,7 +74,7 @@ class CriarAnuncio extends Component {
                 <main>
 
                     <h1 className="cadprod-titulo">Cadrastro Anúncio</h1>
-cl
+
                     <form className="cadanun-corpo" onSubmit={this.cadastrarAnuncio}>
                         <label for="avatar">Selecione a imagem do produto:</label>
 
