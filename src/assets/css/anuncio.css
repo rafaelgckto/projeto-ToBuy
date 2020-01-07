@@ -7,6 +7,9 @@
     display: flex;
     /* align-items: center; */
 }
+.alinha-anuncio{
+    display: flex;
+}
 .my-5{
 margin-top: 10px !important;
 margin-bottom: 1rem !important;
@@ -38,4 +41,17 @@ margin-bottom: 1rem !important;
 }
 .anuncio-filtro-centro{
     margin-bottom: 30px;
+}
+.icon-box-logout a{
+    color: black;
+    font-size: 30px;
+    margin-top: 300px;
+}
+.icon-box-logout {
+    margin-top: 330px;
+}
+@media screen and (max-width: 375px){
+    .nome-produto-dell{
+        font-size: 30px;
+    }
 }

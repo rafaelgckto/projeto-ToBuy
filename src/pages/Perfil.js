@@ -9,9 +9,11 @@ import '../assets/css/style.css';
 
 // Images
 import CSharp from '../assets/img/c-sharp.png';
+import fotoPerfil from '../assets/img/testImgProfile.png';
 
 // SVG
 import ImgProfile from '../assets/svg/Profile/user.svg';
+import Logo from '../assets/img/logo.png';
 
 export default class Perfil extends Component {
     constructor(props) {
@@ -46,9 +48,36 @@ export default class Perfil extends Component {
     render() {
         console.log(this.state.listaUsuario);
         return (
-            <div>
+            <div className="alinha-navbar">
+                <aside className="flex-column-between" id="aside-mobile">
+                        <div className="top-icones-nav">
+                            <div className="top">
+                                <img src={Logo} alt="" style={{"width": "80%"}} />
+                            </div>
+
+                            <div className="icons ">
+                                <div className="icon-box flex-center" onclick="toggleAside()">
+                                    <a href="/anuncio"><i className="fas fa-bullhorn" id="megaphone"></i></a>
+                                </div>
+                                <div className="icon-box " onclick="toggleAside()">
+                                    <i className="fas fa-heart flex-center"></i>
+                                </div>
+                                <div className="icon-box ">
+                                    <i className="far fa-handshake"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bottom flex-column">
+                            <div className="profile flex-center">
+                                <a href="/perfil"><img src={fotoPerfil} alt="" class="profile"/></a>
+                            </div>
+                            {/* <img src={LogoTW} alt="" className="thought-logo" /> */}
+                        </div>
+
+                    </aside>
                 <section id="profile-app-page" className="profile-app-page">
-                    <NavBarUser />
+                    {/* <NavBarUser /> */}
                     <main className="profile-main">
                         <div id="profile-header" className="profile-div-header">
                             <div className="profile-div flex-around">

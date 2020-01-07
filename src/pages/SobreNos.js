@@ -17,11 +17,11 @@ class SobreNos extends Component {
         return (
             <div>
                 <Header/>
-                <main class="main-sobre-nos">
-                    <h1 class="sobre-nos-h1">Sobre Nós</h1>
-                    <div class="sobre-nos-secao">
-                        <img class="img-sobre-nos" src={imgSobreNos} alt="imagem de um grupo de trabalhadores" />
-                        <h2 class="sobre-nos-h2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo in molestiae quis,
+                <main className="main-sobre-nos">
+                    <h1 className="sobre-nos-h1">Sobre Nós</h1>
+                    <div className="sobre-nos-secao">
+                        <img className="img-sobre-nos" src={imgSobreNos} alt="imagem de um grupo de trabalhadores" />
+                        <h2 className="sobre-nos-h2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo in molestiae quis,
                             repellat autem quos
                             hic,voluptas itaque commodi magnam laudantium dolorem error porro. Aut labore ullam distinctio accusamus
                             aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur delectus optio

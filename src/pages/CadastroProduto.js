@@ -45,7 +45,6 @@ class CadastroProduto extends Component {
             })
             .catch(error => console.log('Não foi possível cadastrar:' + error))
     }
-
     atualizaState = (input) => {
 
         this.setState({
@@ -55,52 +54,36 @@ class CadastroProduto extends Component {
             }
         })
     }
-
     render() {
         return (
             <div>
-
                 <main>
-
                     <h1 className="cadprod-titulo">Cadrastro Produto</h1>
-
                     <form className="cadprod-corpo" onSubmit={i => this.cadastrarProduto(i)}>
-
                         <div>
-
                             <MDBInput
                                 label="Nome do Produto"
                                 outline size="lg"
                                 name="nomeProduto"
                                 value={this.state.nomeProduto}
                                 onChange={this.atualizaState}
-
                             />
-
                             <MDBInput
                                 label="Modelo do Produto"
                                 outline size="lg"
                                 name="modeloProduto"
                                 value={this.state.modeloProduto}
                                 onChange={this.atualizaState}
-
-
                             />
-
                             <label className="data" for="LancamentoProduto">Data de Lançamento:</label>
-
-                            <input type="datetime-local" 
-                            id="dtLancProduto"
-                            name="dtLancProduto" 
-                            value={this.state.dtLancProduto}
-                            onChange={this.atualizaState}
+                            <input type="datetime-local"
+                                id="dtLancProduto"
+                                name="dtLancProduto"
+                                value={this.state.dtLancProduto}
+                                onChange={this.atualizaState}
                             />
-
-
                         </div>
-
-                    
-                        <div> 
+                        <div>
                             <p>Marca/Fabricante</p>
                             <select className="browser-default custom-select marca"
                                 name="Fk_idFabricante"
@@ -112,11 +95,9 @@ class CadastroProduto extends Component {
                                 <option value="3">Outro</option>
                             </select>
                         </div>
-
                         <div className="interest-box save-product">
                             <button className="interest" type="submit"> Salvar Produto </button>
                         </div>
-
                     </form>
                 </main>
             </div>

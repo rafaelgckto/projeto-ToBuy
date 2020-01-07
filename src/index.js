@@ -21,6 +21,7 @@ import ListaAnuncio from './pages/ListaAnuncio';
 import Produto from './pages/Produto';
 import Duvidas from './pages/Duvidas';
 import SobreNos from './pages/SobreNos';
+import CadastroProduto from './pages/CadastroProduto';
 
 
 // Import MDB
@@ -55,22 +56,21 @@ const PermissaoAluno = ({ component: Component }) => (
 // Rotas para páginas
 const Rotas = (
     <Router>
-        <div>
-            <Switch>
-                <Route exact path="/" component={App} />
-                <Route path="/login" component={Login} />
-                <Route path="/cadastrousuario" component={CadastroUsuario} />
-                <Route path="/perfil" component={Perfil} />
-                <Route path='/controleusuario' component={ControleUsuario}/>
-                <Route path='/interesses' component={Interesse}/>
-                <Route path='/anuncio' component={Anuncio}/>
-                <Route path='/listaanuncio' component={ListaAnuncio}/>
-                <Route path='/produto' component={Produto}/>
-                <Route path='/duvidas' component={Duvidas}/>
-                <Route path='/sobrenos' component={SobreNos}/>
-                <Route component={NotFound} />
-            </Switch>
-        </div>
+        <Switch>
+            <Route exact path="/" component={App} />
+            <Route path="/login" component={Login} />
+            <Route path="/cadastrousuario" component={CadastroUsuario} />
+            <Route path="/perfil" component={Perfil} />
+            <Route path='/controleusuario' component={ControleUsuario}/>
+            <Route path='/interesses' component={Interesse}/>
+            <Route path='/anuncio' component={Anuncio}/>
+            <Route path='/listaanuncio' component={ListaAnuncio}/>
+            <Route path='/produto' component={Produto}/>
+            <Route path='/duvidas' component={Duvidas}/>
+            <Route path='/sobrenos' component={SobreNos}/>
+            <Route path='/cadastroproduto' component={CadastroProduto}/>
+            <Route component={NotFound} />
+        </Switch>
     </Router>
 );
 

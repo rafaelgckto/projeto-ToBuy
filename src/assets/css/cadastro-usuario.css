@@ -1,19 +1,16 @@
 /* #region cadastro-usuario.css */
-
 .register-user-main {
-    height: 489px !important;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .register-card-box {
-    width: 30vw;
-    height: 72vh;
+    padding: 20px;    
     background: #fff;
     box-shadow: 0em 0em 1.5em rgb(119, 118, 118);
-    border-radius: 15px;
-}
-
-.register-div-box {
-    height: 72vh;
+    border-radius: 1em;
+    margin: 40px 0;
 }
 
 .register-h2 {
@@ -36,6 +33,7 @@
     padding: 5px 5px;
     margin-top: 7px;
     width: 20vw;
+    margin-right: 1.5em;
 }
 
 .register-color {

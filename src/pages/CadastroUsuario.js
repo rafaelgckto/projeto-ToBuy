@@ -3,8 +3,8 @@ import Axios from 'axios';
 import { Link } from 'react-router-dom';
 
 // Componentes (components)
-import Cabecalho from '../components/Header';
-import Rodape from '../components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 // Css (assets/css)
 import '../assets/css/cadastro-usuario.css';
@@ -74,13 +74,13 @@ export default class CadastroUsuario extends Component {
 
     render() {
         return (
-            <div>
-                <Cabecalho />
+            <div className="page-main">
+                <Header />
 
                 <main className="register-user-main flex-center">
                     <section className="register-card-box">
                         <div className="register-div-box flex-column">
-                            <h2 className="register-h2">Cadastre-se</h2>
+                            <h2 className="login-title-box">Cadastre-se</h2>
                             <p className="register-p">Faça o cadastro no <span><img className="register-img-logo img-logo-cad" src={Logo} alt="logo" /></span></p>
                             <form className="register-form-box flex-column" onSubmit={this.CadastrarUsuario}>
                                 <input className="register-input"
@@ -107,21 +107,27 @@ export default class CadastroUsuario extends Component {
                                     placeholder="Confirmação de senha"
                                     value={this.state.confirmarSenha}
                                     onChange={this.AtualizarStateCampo} />
-                                <input className="register-input"
+                                {/* <input className="register-input"
                                     type="text"
                                     name="telefoneUsuario"
                                     placeholder="Telefone"
                                     value={this.state.telefoneUsuario}
-                                    onChange={this.AtualizarStateCampo} />
-                                <button className="register-color register-btn">Cadastre-se</button>
+                                    onChange={this.AtualizarStateCampo} /> */}
+                                <div style={{marginTop: '10px'}}>
+                                    <button type="submit" className="login-color-btn login-btn-card">Cadastre-se</button>
+                                </div>
                             </form>
-                            <p className="register-p-footer">Já possui uma conta?</p>
-                            <Link className="register-a-login register-link-login" onClick={() => { this.props.history.push('/login') }}>Entrar</Link>
+                            <div className="login-footer-box">
+                                <div className="login-other flex-column">
+                                    <p>Já possui uma conta?</p>
+                                    <Link className="login-link-register" onClick={() => { this.props.history.push('/login') }}>Entrar</Link>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </main>
 
-                <Rodape />
+                <Footer />
             </div>
         );
     }

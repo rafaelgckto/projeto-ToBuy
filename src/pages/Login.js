@@ -98,18 +98,19 @@ export default class Login extends Component {
 
     render() {
         return (
-            <div>
+            <div className="page-main">
                 <Header />
                 <main className="login-main flex-center">
                     <section className="login-card-box flex-center">
                         <div className="login-div-box flex-column">
                             <h2 className="login-title-box">Login</h2>
-                            <p className="login-desc-box">
+                            <p className="register-p">
                                 Faça o login no <span><img className="login-img-logo" src={Logo} alt="Logo End of Life for Us" /></span>
                             </p>
                             <form className="login-form-box flex-column" onSubmit={this.EfetuaLogin}>
-                                <input className="login-input-form" type="text" name="emailUsuario" placeholder="E-mail" value={this.state.emailUsuario} onChange={this.AtualizaStateCampo} />
-                                <input className="login-input-form" type="password" name="senhaUsuario" placeholder="Senha" value={this.state.senhaUsuario} onChange={this.AtualizaStateCampo} />
+                                <p className="login-error-p">{this.state.erroMensagem}</p>
+                                <input className="register-input" type="text" name="emailUsuario" placeholder="E-mail" value={this.state.emailUsuario} onChange={this.AtualizaStateCampo} />
+                                <input className="register-input" type="password" name="senhaUsuario" placeholder="Senha" value={this.state.senhaUsuario} onChange={this.AtualizaStateCampo} />
                                 <div className="login-remind-box flex-column">
                                     <div className="login-remind flex-center">
                                         <input id="input-remind" type="checkbox" name="remind-pass" defaultChecked={this.state.isChecked} onChange={this.HandleCheck} />
@@ -128,19 +129,14 @@ export default class Login extends Component {
                                     <a className="login-forgotit-password">Esqueci minha senha</a>
                                 </div>
                                 <div>
-                                    <p className="login-error-p">{this.state.erroMensagem}</p>
-                                    <button type="submit" className="login-color-btn login-btn-card">Entrar</button>
+                                    {/* <button type="submit" className="login-color-btn login-btn-card">Entrar</button> */}
+                                    <a href="/anuncio" style={{"marginTop": "5px", "display": "block"}} className="login-color-btn login-btn-card">Entrar</a>
                                 </div>
                             </form>
                             <div className="login-footer-box">
-                                <div className="login-hr flex-center">
-                                    <hr />
-                                    <p className="login-p-box">ou</p>
-                                    <hr />
-                                </div>
                                 <div className="login-other flex-column">
                                     <p>Não tem uma conta?</p>
-                                    <Link className="login-link-register" onClick={() => { this.props.history.push('/cadastro-usuario') }}>faça seu cadastro</Link>
+                                    <Link className="login-link-register" onClick={() => { this.props.history.push('/cadastrousuario') }}>faça seu cadastro</Link>
                                 </div>
                             </div>
                         </div>

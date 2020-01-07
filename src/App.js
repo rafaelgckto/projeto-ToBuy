@@ -1,30 +1,30 @@
 import React from 'react';
 import './App.css';
 import './assets/css/style.css';
-import Cabecalho from './components/Cabecalho';
-import Rodape from './components/Rodape';
+import './assets/css/home.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import ImagemBanner from '../src/assets/img/Imagem banner.png';
 
 function App() {
     return (
-        <div className="App">
-            <Cabecalho />
-            <main class="main-home-eol flex-center-main">
-                <section class="home-eol flex-center">
+        <div className="App page-main">
+            <Header />
+            <main className="main-home-eol flex-center-main">
+                <section className="home-eol">
                     <img className="Imagem-banner.png" src={ImagemBanner} />
-                    <div class="flex-column entrar">
-                        <div class="text-home-eol">
-                            <h1 className='h1-menu-eol'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h1>
-                            <p className='p-menu-eol'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Quos, temporibus! Consequuntur nesciunt laboriosam a voluptatum, at provident
-                                iste reprehenderit, sed soluta dolores illo recusandae omnis ex alias! Quaerat, adipisci aut!
+                    <div className="flex-column entrar">
+                        <div className="text-home-eol">
+                            <h1 className='h1-menu-eol'>Bem vindo à plataforma END OF LIFE FOR US! </h1>
+                            <p className='p-menu-eol'>
+                                Aqui você pode conferir e demonstrar interesse nos equipamentos que entraram no prazo de fim da vida útil na Thoughtworks.
                             </p>
                         </div>
-                        <a href="./login"><button class="btn-entrar-eol">Entrar</button></a>
+                        <a href="./login"><button className="btn-entrar-eol">Entrar</button></a>
                     </div>
                 </section>
             </main>
-            <Rodape />
+            <Footer />
         </div>
     );
 }

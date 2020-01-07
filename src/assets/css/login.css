@@ -1,17 +1,16 @@
 /* #region login.css */
-
 .login-main {
-    height: calc(100vh - 158px) !important;
-    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .login-card-box {
-    width: 25vw;
-    height: 69vh !important;
+    padding: 20px;  
     background: #fff;
     box-shadow: 0em 0em 1.5em rgb(119, 118, 118);
     border-radius: 1em;
-    margin: 6.78em 0;
+    margin: 40px 0;
 }
 
 .login-title-box {
@@ -137,7 +136,9 @@
 
 .login-error-p {
     position: relative;
-    top: 1em;
+    text-align: center;
+    color: #ff0000;
+    font-size: 14px;
 }
 
 .login-color-btn {
@@ -149,7 +150,7 @@
     border-radius: 1em;
     color: white;
     margin-top: 0.5em;
-    padding: 0.5em 4.5em;
+    padding: 7px 25px;
     margin-bottom: 0.5em;
     font-weight: bold;
     text-transform: uppercase;

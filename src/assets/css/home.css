@@ -1,0 +1,16 @@
+
+@media (max-width: 376px){
+    .home-eol{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-eol .entrar{
+        width: auto;
+    }
+    .home-eol img{
+        width: 17em;
+    }
+    .btn-entrar-eol{
+        margin: 10px 0;
+    }
+}

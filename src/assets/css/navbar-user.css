@@ -435,6 +435,10 @@ img.aside-img-logoTW {
         width: 10vw;
         display: block;
     }
+    
+    .profile{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -529,6 +533,9 @@ img.aside-img-logoTW {
 
     img.aside-img-logoTW {
         width: 20vw;
+    }
+    .profile{
+        display: none;
     }
 }
 
